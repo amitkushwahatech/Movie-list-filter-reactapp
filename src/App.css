@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  display: flex;
+  font-family: cursive;
+  justify-content: center;
+}
+.GenreFilter{
+  padding:20px;
+  margin: 20px;
+  /* background: #f3e2e2; */
+  background: #dc3b0073;
+  border-radius: 5px; 
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.btnFltr{
+    border:none;
+    /* background: #d3d0d0; */
+    background: #5cecac;
+    margin:5px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+h3{
+  display: flex;
+}
